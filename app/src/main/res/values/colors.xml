@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#bf360c</color>
+    <color name="colorPrimaryDark">#870000</color>
+    <color name="colorAccent">#ffa726</color>
+    <color name="accentLight">#ffd95b</color>
+    <color name="accentDark">#c77800</color>
+    <color name="textPrimary">#ffffff</color>
+    <color name="textAccent">#2B3D4D</color>
+    <color name="grayText">#B4BAC0</color>
+
+    <!--sections-->
+    <color name="politics">#3949ab</color>
+    <color name="culture">#2e7d32</color>
+    <color name="music">#fdd835</color>
+    <color name="technology">#c2185b</color>
+    <color name="business">#607d8b</color>
+    <color name="lifestyle">#ff7043</color>
+    <color name="travel">#03a9f4</color>
+    <color name="tv_radio_film">#00acc1</color>
+    <color name="fashion">#4caf50</color>
+    <color name="environment">#55c16c</color>
+    <color name="other">#c13aad</color>
+</resources>

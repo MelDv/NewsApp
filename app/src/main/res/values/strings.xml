@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">NewsApp - Star Trek news</string>
+    <string name="no_stories">No news stories found.</string>
+    <string name="no_connection">No internet connection</string>
+</resources>

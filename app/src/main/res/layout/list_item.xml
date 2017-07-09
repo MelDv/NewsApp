@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?android:attr/listPreferredItemHeightLarge"
+    android:orientation="horizontal"
+    android:paddingEnd="@dimen/margin"
+    android:paddingLeft="@dimen/margin"
+    android:paddingRight="@dimen/margin"
+    android:paddingStart="@dimen/margin">
+
+    <TextView
+        android:id="@+id/list_section"
+        android:layout_width="@dimen/sections_width"
+        android:layout_height="@dimen/section_circle"
+        android:layout_gravity="center_vertical"
+        android:background="@drawable/section_background"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/section_text"
+        tools:text="Politics" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:maxLines="1"
+            android:textAllCaps="true"
+            android:textColor="@color/grayText"
+            android:textSize="@dimen/text_type"
+            tools:text="Column" />
+
+        <TextView
+            android:id="@+id/list_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:textColor="@color/textAccent"
+            android:textSize="@dimen/text_title"
+            tools:text="Placeholder text to show how lorem lorem ipsum pipsum how will it wrap on several lines? Or even longer? Surely 4 is the limit!" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginStart="@dimen/margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/list_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/grayText"
+            android:textSize="@dimen/text_type"
+            tools:text="14.7.2017" />
+
+        <TextView
+            android:id="@+id/list_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:textColor="@color/grayText"
+            android:textSize="@dimen/text_type"
+            tools:text="Sylvia Plath" />
+    </LinearLayout>
+</LinearLayout>

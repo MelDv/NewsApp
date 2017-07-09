@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="section_circle">36dp</dimen>
+    <dimen name="section_circle_radius">18dp</dimen>
+    <dimen name="margin">16dp</dimen>
+    <dimen name="sections_width">70dp</dimen>
+
+    <!--text-->
+    <dimen name="section_text">8sp</dimen>
+    <dimen name="text_type">12sp</dimen>
+    <dimen name="text_title">16sp</dimen>
+</resources>
